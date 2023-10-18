@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5%;
+  padding-top: 7%;
+  font-family: Roboto;
+}
+
+.top-container {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+  overflow: auto;
+}
+
+.top-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.main-heading {
+  color: #1e293b;
+  font-size: 36px;
+}
+
+.name-input-label {
+  color: #475569;
+}
+
+.add-comment-button {
+  background-color: #0284c7;
+  border: none;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+}
+
+.name-input {
+  padding: 5px;
+  margin: 5px;
+  border: solid #cbd2d9 1px;
+  border-radius: 5px;
+}
+
+.comment-input {
+  padding: 5px;
+  margin: 5px;
+  height: 150px;
+  width: 300px;
+  border: solid #cbd2d9 1px;
+  border-radius: 5px;
+}
+
+.horizontal-line {
+  width: 1px;
+  color: #475569;
+}
+
+.comments-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.comments-count {
+  color: #475569;
+}
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+}
